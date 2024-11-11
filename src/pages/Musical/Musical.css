@@ -1,0 +1,56 @@
+#musicalbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./frankie-lu-htCXAhfU19g-unsplash.jpg');
+    font-family: papyrus;
+    color: white;
+}
+h1{
+    background-color: rgba(105, 105, 105, 0.7);
+    font-size: 50px;
+    border-radius: 30px;
+    padding: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+li{
+    background-color: rgba(108, 108, 108, 0.7);
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+#buttons{
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: rgba(118, 118, 118, 0.7);
+    font-family: papyrus;
+    margin: 20px;
+    color: white;
+}
+#lovebutton{
+    background: none;
+    border: none;
+}
+#lovebutton img{
+    content: url('love.png');
+    background: none;
+    width: 30px;
+    height: 30px;
+}
+#lovebutton:hover img{
+    content: url('lovehover.png');
+}
+a{
+    color: white;
+}
